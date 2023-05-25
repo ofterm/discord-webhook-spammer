@@ -10,7 +10,7 @@ def send_webhook_message(url, message):
     }
     response = requests.post(url, json=data)
     if response.status_code == 204:
-        print("Message sent successfully!")
+        print("sent")
     else:
         print(f"rate limit, this shouldn't happen more than 5 times in a row")
 
