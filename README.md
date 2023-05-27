@@ -1,4 +1,6 @@
 # discord-webhook-spammer
-spams a webhook you input on discord
+spams webhooks
 
-2 imports
+supports multiple
+
+
